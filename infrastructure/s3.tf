@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "dl" {
-    bucket = "datalake-lucas-igti-edc-deploy-tf"
+    bucket = "datalake-lucas-igti-edc-tf"
     acl = "private"
 
     tags = {
